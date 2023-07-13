@@ -1,0 +1,35 @@
+/* universal selector */
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  #container {
+    background-color:rgb(221, 239, 255);
+    padding: 12px;
+    text-align: center;
+  }
+
+  .card {
+    width: 28%;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .cardImage img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .cardTitle {
+    padding: 10px;
+    text-align: left;
+  }
+  .cardPara {
+    padding: 10px;
+    text-align: justify;
+  }
+  
